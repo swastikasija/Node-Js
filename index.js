@@ -1,9 +1,8 @@
 const express = require("express");
-const server = express();
+const app = express();
 
-server.get("/", (req, res) => {
-  res.send("<h1>Hello Express</h1>");
-  res.sendFile('D:\Node Js\index.js')
+app.get("/", (req, res) => {
+
 });
 
 server.listen(8080, function () {
